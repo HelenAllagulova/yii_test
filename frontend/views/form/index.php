@@ -8,7 +8,7 @@ use yii\widgets\ActiveForm;?>
 <?php $form = ActiveForm::begin([
     'id' => $form_name['id'] ,
     'options' => ['class' => 'form-horizontal',
-        'style' => 'width: 40%;'
+        'style' => 'width: 35%;'
     ],
 ]) ?>
 <?php if($form_name['status'] == 1){
